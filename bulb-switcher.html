@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>bulb</title>
+        <script>
+            function turn_of(){
+                var a="/home/guest/Documents/tayyab/pic_bulboff.gif"
+                document.getElementById("image").src=a
+            }
+            function turn_on(){
+                var b="/home/guest/Documents/tayyab/pic_bulbon.gif"
+                document.getElementById("image").src=b
+            }
+        </script>
+    </head>
+    <body>
+        <button onclick="turn_of()">turn off</button>
+                <img src="/home/guest/Documents/tayyab/pic_bulboff.gif" alt="bulb-image" id="image">
+        <button onclick="turn_on()">turn on</button>
+    </body>
+</html>
